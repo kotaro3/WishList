@@ -22,7 +22,7 @@ class TopContainerViewController: UIViewController {
 		content.view.translatesAutoresizingMaskIntoConstraints = false
 		content.view.topAnchor.constraint(equalTo: self.view.topAnchor).isActive = true
 		content.view.leftAnchor.constraint(equalTo: self.view.leftAnchor).isActive = true
-		content.view.rightAnchor.constraint(equalTo: self.view.rightAnchor).isActive = true
+		content.view.rightAnchor.constraint(equalTo: self.view.rightAnchor, constant: 16).isActive = true
 		content.view.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
 		content.view.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
     }

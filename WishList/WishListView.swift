@@ -10,7 +10,10 @@ import SwiftUI
 
 struct WishListView: View {
     var body: some View {
-		Text("Hello, World")
+        List {
+			WishListCell()
+				.frame(height: 60)
+        }
     }
 }
 
