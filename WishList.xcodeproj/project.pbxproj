@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E6D42E3249229DC00C9EBC8 /* TopContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6D42E2249229DC00C9EBC8 /* TopContainerViewController.swift */; };
-		3E6D42E724922A1E00C9EBC8 /* TopContainerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6D42E624922A1E00C9EBC8 /* TopContainerViewController.storyboard */; };
 		3EAE6A7A2486918700B6842F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE6A792486918700B6842F /* AppDelegate.swift */; };
 		3EAE6A7C2486918700B6842F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE6A7B2486918700B6842F /* SceneDelegate.swift */; };
 		3EAE6A7E2486918700B6842F /* WishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE6A7D2486918700B6842F /* WishListView.swift */; };
@@ -38,8 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E6D42E2249229DC00C9EBC8 /* TopContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopContainerViewController.swift; sourceTree = "<group>"; };
-		3E6D42E624922A1E00C9EBC8 /* TopContainerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TopContainerViewController.storyboard; sourceTree = "<group>"; };
 		3EAE6A762486918700B6842F /* WishList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAE6A792486918700B6842F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EAE6A7B2486918700B6842F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,8 +104,6 @@
 		3E6D42E5249229EE00C9EBC8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3E6D42E2249229DC00C9EBC8 /* TopContainerViewController.swift */,
-				3E6D42E624922A1E00C9EBC8 /* TopContainerViewController.storyboard */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -283,7 +277,6 @@
 			files = (
 				3EAE6A862486918900B6842F /* LaunchScreen.storyboard in Resources */,
 				3EAE6A832486918900B6842F /* Preview Assets.xcassets in Resources */,
-				3E6D42E724922A1E00C9EBC8 /* TopContainerViewController.storyboard in Resources */,
 				3EAE6A802486918900B6842F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,7 +303,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EAE6A7A2486918700B6842F /* AppDelegate.swift in Sources */,
-				3E6D42E3249229DC00C9EBC8 /* TopContainerViewController.swift in Sources */,
 				3EAE6A7C2486918700B6842F /* SceneDelegate.swift in Sources */,
 				3EAE6A7E2486918700B6842F /* WishListView.swift in Sources */,
 				8A9BFEF72495EB3100C13855 /* WishListCell.swift in Sources */,
