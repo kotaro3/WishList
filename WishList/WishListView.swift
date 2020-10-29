@@ -10,10 +10,17 @@ import SwiftUI
 
 struct WishListView: View {
     var body: some View {
-        List {
-			WishListCell()
-				.frame(height: 60)
-        }
+        NavigationView(content: {
+            List {
+//                NavigationLink(
+//                    destination: ## DescriptionView() ##)
+//                {
+                    WishListCell()
+                        .frame(height: 60)
+//                }
+            }
+            .navigationBarTitle("WishList")
+        })
     }
 }
 
