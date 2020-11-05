@@ -12,14 +12,14 @@ struct WishListView: View {
     var body: some View {
         NavigationView(content: {
             List {
-//                NavigationLink(
-//                    destination: ## DescriptionView() ##)
-//                {
+                NavigationLink(
+                    destination: WishListDescriptionView(name: "あいいうえお", price: 100, priority: "Low"))
+                {
                     WishListCell()
                         .frame(height: 60)
-//                }
+                }
             }
-            .navigationBarTitle("WishList")
+            .navigationBarTitle("WishList", displayMode: .inline)
         })
     }
 }
