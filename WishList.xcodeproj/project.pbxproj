@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E30F1B4256CF46D00128DC8 /* WishListItemEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E30F1B3256CF46D00128DC8 /* WishListItemEditView.swift */; };
 		3EAE6A7A2486918700B6842F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE6A792486918700B6842F /* AppDelegate.swift */; };
 		3EAE6A7C2486918700B6842F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE6A7B2486918700B6842F /* SceneDelegate.swift */; };
 		3EAE6A7E2486918700B6842F /* WishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE6A7D2486918700B6842F /* WishListView.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E30F1B3256CF46D00128DC8 /* WishListItemEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListItemEditView.swift; sourceTree = "<group>"; };
 		3EAE6A762486918700B6842F /* WishList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAE6A792486918700B6842F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EAE6A7B2486918700B6842F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				3EAE6A7D2486918700B6842F /* WishListView.swift */,
 				8A94A808255398F30064CEF9 /* WishListItemDescriptionView.swift */,
+				3E30F1B3256CF46D00128DC8 /* WishListItemEditView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				3EAE6A7C2486918700B6842F /* SceneDelegate.swift in Sources */,
 				8A94A809255398F30064CEF9 /* WishListItemDescriptionView.swift in Sources */,
 				3EAE6A7E2486918700B6842F /* WishListView.swift in Sources */,
+				3E30F1B4256CF46D00128DC8 /* WishListItemEditView.swift in Sources */,
 				8A9BFEF72495EB3100C13855 /* WishListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
