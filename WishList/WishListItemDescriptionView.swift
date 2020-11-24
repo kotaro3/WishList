@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct WishListDescriptionView: View {
+struct WishListItemDescriptionView: View {
 
 	@State private var isPresentedEdit: Bool = false
 
@@ -102,7 +102,7 @@ struct WishListDescriptionView: View {
 				.sheet(
 					isPresented: $isPresentedEdit,
 					content: {
-						WishListDescriptionView(name: "二番目の画面", price: 10, priority: "Low")
+						WishListItemDescriptionView(name: "二番目の画面", price: 10, priority: "Low")
 					}
 				)
 			)
@@ -112,6 +112,6 @@ struct WishListDescriptionView: View {
 
 struct WishListDescriptionView_Previews: PreviewProvider {
     static var previews: some View {
-        WishListDescriptionView(name: "", price: 0, priority: "")
+        WishListItemDescriptionView(name: "", price: 0, priority: "")
     }
 }

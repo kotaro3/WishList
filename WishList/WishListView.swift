@@ -13,7 +13,7 @@ struct WishListView: View {
         NavigationView(content: {
             List {
                 NavigationLink(
-                    destination: WishListDescriptionView(name: "あいいうえお", price: 100, priority: "Low"))
+                    destination: WishListItemDescriptionView(name: "あいいうえお", price: 100, priority: "Low"))
                 {
                     WishListCell()
                         .frame(height: 60)

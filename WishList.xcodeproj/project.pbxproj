@@ -15,7 +15,7 @@
 		3EAE6A862486918900B6842F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAE6A842486918900B6842F /* LaunchScreen.storyboard */; };
 		3EAE6A912486918900B6842F /* WishListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE6A902486918900B6842F /* WishListTests.swift */; };
 		3EAE6A9C2486918900B6842F /* WishListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE6A9B2486918900B6842F /* WishListUITests.swift */; };
-		8A94A809255398F30064CEF9 /* WishListDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A94A808255398F30064CEF9 /* WishListDescriptionView.swift */; };
+		8A94A809255398F30064CEF9 /* WishListItemDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A94A808255398F30064CEF9 /* WishListItemDescriptionView.swift */; };
 		8A9BFEF72495EB3100C13855 /* WishListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9BFEF62495EB3100C13855 /* WishListCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +51,7 @@
 		3EAE6A972486918900B6842F /* WishListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WishListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAE6A9B2486918900B6842F /* WishListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListUITests.swift; sourceTree = "<group>"; };
 		3EAE6A9D2486918900B6842F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A94A808255398F30064CEF9 /* WishListDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListDescriptionView.swift; sourceTree = "<group>"; };
+		8A94A808255398F30064CEF9 /* WishListItemDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListItemDescriptionView.swift; sourceTree = "<group>"; };
 		8A9BFEF62495EB3100C13855 /* WishListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				3EAE6A7D2486918700B6842F /* WishListView.swift */,
-				8A94A808255398F30064CEF9 /* WishListDescriptionView.swift */,
+				8A94A808255398F30064CEF9 /* WishListItemDescriptionView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -307,7 +307,7 @@
 			files = (
 				3EAE6A7A2486918700B6842F /* AppDelegate.swift in Sources */,
 				3EAE6A7C2486918700B6842F /* SceneDelegate.swift in Sources */,
-				8A94A809255398F30064CEF9 /* WishListDescriptionView.swift in Sources */,
+				8A94A809255398F30064CEF9 /* WishListItemDescriptionView.swift in Sources */,
 				3EAE6A7E2486918700B6842F /* WishListView.swift in Sources */,
 				8A9BFEF72495EB3100C13855 /* WishListCell.swift in Sources */,
 			);
