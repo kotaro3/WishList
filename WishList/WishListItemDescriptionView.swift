@@ -102,7 +102,19 @@ struct WishListItemDescriptionView: View {
 				.sheet(
 					isPresented: $isPresentedEdit,
 					content: {
-						WishListItemDescriptionView(name: "二番目の画面", price: 10, priority: "Low")
+						NavigationView {
+							WishListItemEditView(isPresentedEdit: $isPresentedEdit,
+												 name: name,
+												 price: price,
+												 priority: priority)
+								.navigationBarTitle(Text("編集"), displayMode: .inline)
+								.navigationBarItems(
+									trailing: Button("キャンセル", action: {
+										self.isPresentedEdit.toggle()
+
+									})
+								)
+						}
 					}
 				)
 			)
